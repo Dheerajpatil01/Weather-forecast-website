@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Weather Forecast</h1>
+        <div class="search-container">
+            <input type="text" placeholder="Enter City Name.......">
+            <button type="button">Search</button>
+        </div>
+    </header>
+
+    <section class="weather-container">
+        <div class="weather-card">
+            <img src="C:\Users\dheer\OneDrive\Desktop\sunny.png">
+            <h2>Sunny</h2>
+            <p>Temperature: 25°C</p>
+            <p>Wind: 10 km/h</p>
+        </div>
+
+        <div class="weather-card">
+            <img src="C:\Users\dheer\OneDrive\Desktop\rainy.png">
+            <h2>Rainy</h2>
+            <p>Temperature: 18°C</p>
+            <p>Wind: 15 km/h</p>
+        </div>
+
+        <div class="weather-card">
+            <img src="C:\Users\dheer\OneDrive\Desktop\cloud.png">
+            <h2>Cloudy</h2>
+            <p>Temperature: 22°C</p>
+            <p>Wind: 12 km/h</p>
+        </div>
+    </section>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast - Detailed</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Weather Forecast</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="forecast.html">Detailed Forecast</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="detailed-forecast">
+        <h2>Detailed Weather Forecast</h2>
+        <div class="location">
+            <h3>City Name</h3>
+        </div>
+        <div class="weather-details">
+            <div class="weather-card">
+                <img src="C:\Users\dheer\OneDrive\Desktop\sunny.png">
+                <h3>Sunny</h3>
+                <p>Temperature: 25°C</p>
+                <p>Wind: 10 km/h</p>
+                <p>Humidity: 50%</p>
+            </div>
+            <!-- Add more cards for different times or days as needed -->
+        </div>
+    </section>
+
+    
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast - History</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+       <h1>Weather Forecast</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="forecast.html">Detailed Forecast</a></li>
+                <li><a href="history.html">History</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="history">
+        <h2>Historical Weather Data</h2>
+        <p>Select a date to view historical weather data:</p>
+        <input type="date" id="datepicker">
+        <button onclick="viewHistory()">View Data</button>
+
+        <div id="history-result" class="weather-details">
+            <!-- Historical weather data will be displayed here -->
+        </div>
+    </section>
+
+  
+   
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast - About Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast - Detailed</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+
+    <section class="detailed-forecast">
+        <h2>Detailed Weather Forecast</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>City</th>
+                    <th>Weather</th>
+                    <th>Temperature (°C)</th>
+                    <th>Wind (km/h)</th>
+                    <th>Humidity (%)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Amritsar</td>
+                    <td>Sunny</td>
+                    <td>25</td>
+                    <td>10</td>
+                    <td>50</td>
+                </tr>
+                <tr>
+                    <td>Ludhiana</td>
+                    <td>Cloudy</td>
+                    <td>18</td>
+                    <td>15</td>
+                    <td>60</td>
+                </tr>
+                <tr>
+                    <td>chandigarh</td>
+                    <td>Rainy</td>
+                    <td>22</td>
+                    <td>12</td>
+                    <td>75</td>
+                </tr>
+                <!-- Add more rows for other cities as needed -->
+            </tbody>
+        </table>
+
+    </section>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast - History</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+   
+
+    <section class="history">
+        <h2>Historical Weather Data</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>City</th>
+                    <th>Weather</th>
+                    <th>Temperature (°C)</th>
+                    <th>Wind (km/h)</th>
+                    <th>Humidity (%)</th>
+                    <th>Image</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2023-11-01</td>
+                    <td>Amritsar</td>
+                    <td>Clear</td>
+                    <td>28</td>
+                    <td>15</td>
+                    <td>60</td>
+                    <td><img src="C:\Users\dheer\OneDrive\Desktop\am.jpg"></td>
+                </tr>
+                <tr>
+                    <td>2023-11-01</td>
+                    <td>Ludhiana</td>
+                    <td>Partly Cloudy</td>
+                    <td>22</td>
+                    <td>10</td>
+                    <td>55</td>
+                    <td><img src="C:\Users\dheer\OneDrive\Desktop\lu.jpg"></td>
+                </tr>
+                <tr>
+                    <td>2023-11-02</td>
+                    <td>chandigarh</td>
+                    <td>Rainy</td>
+                    <td>25</td>
+                    <td>20</td>
+                    <td>75</td>
+                    <td><img src="C:\Users\dheer\OneDrive\Desktop\ch.jpg"></td>
+                </tr>
+                <!-- Add more rows for other cities and dates as needed -->
+            </tbody>
+        </table>
+
+    </section>
+
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast - Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   
+
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or need support? Reach out to us:</p>
+
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+  
+
+</body>
+</html>
+
+
+
+
